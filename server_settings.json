@@ -1,0 +1,9 @@
+{
+	"player_limit"	: 16
+	,
+	"server_domain"	: "localhost"
+	,
+	"ws_port"		: 8338
+	,
+	"server_port"	: 8008
+}
