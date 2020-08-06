@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	font-size: 180%; 
+	padding: 0%;
+}
+
+h2.enabled {
+	color: darkgreen;
+}
+
+h2.disabled {
+	color: maroon;
+}
+
+#results {
+	text-align: center;
+	margin: auto;
+	height: 40%;
+	width: 90%;
+	margin-bottom: 0%;
+	border-style: solid;
+	border-radius: 2%;
+	border-width: 2%;
+}
+
+#controls {
+	text-align: center;
+	height: 60%;
+	width: 100%;
+}
+
+#controls button {
+	border-radius: 2%;
+	display: block;
+	font-size: 140%;
+	width: 90%;
+	margin: auto;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+/* desktop */
+@media only screen and (min-width: 420px) {
+	#results {
+		width: 40%;
+		min-width: 380px;
+	}
+	#controls button {
+		width: 40%;
+		min-width: 380px;
+		margin-bottom: 1%;
+	}
+}
