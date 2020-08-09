@@ -1,7 +1,7 @@
 {
 	"player_limit"	: 16
 	,
-	"server_domain"	: "localhost"
+	"server_domain"	: "https://jgi-buzzer.herokuapp.com/"
 	,
 	"ws_port"		: 8338
 	,
